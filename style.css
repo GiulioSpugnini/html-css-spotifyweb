@@ -10,6 +10,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.float-left {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+    content: '';
+    display: table;
+}
+
 
 /* LAYOUT */
 
@@ -39,6 +49,11 @@ main {
     background-color: #141922;
     height: 90%;
     width: 90%;
+    overflow-y: scroll;
+}
+
+main img {
+    width: 200px;
 }
 
 #sidebar {
@@ -68,6 +83,23 @@ main {
     top: 50%;
     left: 90%;
     transform: translate(-90%, -50%);
+}
+
+
+/* MAIN */
+
+.row {
+    width: 100%;
+}
+
+.col-left,
+.col-right {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.card {
+    margin: 5px;
 }
 
 
@@ -118,4 +150,11 @@ main {
 
 .bg-night-blue {
     background-color: #080b12;
+}
+
+
+/* SIZES */
+
+.w50 {
+    width: 50%;
 }
