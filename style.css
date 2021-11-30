@@ -56,7 +56,10 @@ main {
     width: 200px;
     border: 1px solid white;
     text-align: center;
+    line-height: 38px;
+    text-decoration: none;
     font-size: 12px;
+    font-weight: 900;
     position: absolute;
     top: 50%;
     left: 90%;
