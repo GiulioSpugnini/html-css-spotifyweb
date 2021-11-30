@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+
+/* LAYOUT */
+
 .user-view {
     display: flex;
     flex-flow: column wrap;
@@ -43,6 +46,12 @@ main {
     position: relative;
 }
 
+
+/* HEADER */
+
+
+/* SIDEBAR */
+
 #circle-down {
     position: absolute;
     bottom: 10%;
@@ -53,12 +62,15 @@ main {
 #profile {
     position: absolute;
     bottom: 0;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 #sidebar img {
-    width: 30px;
+    width: 25px;
 }
 
 #sidebar span {
@@ -77,4 +89,8 @@ main {
 
 .white {
     color: white;
+}
+
+.bg-gray {
+    background-color: gray;
 }
