@@ -185,14 +185,12 @@ figcaption {
     flex-basis: 30%;
 }
 
-.foot-middle {
-    flex-basis: 40%;
-    text-align: center;
-}
-
 .fa-play-circle {
     font-size: 30px;
 }
+
+
+/* foot-left */
 
 .foot-left .card {
     display: flex;
@@ -218,7 +216,38 @@ figcaption {
     margin-right: 20px;
 }
 
-.foot-middle {}
+
+/* foot-middle */
+
+.foot-middle {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.middle-buttons a {
+    display: flex;
+}
+
+.bar {
+    display: inline-block;
+    border-radius: 8px;
+    vertical-align: middle;
+    width: 100px;
+    height: 5px;
+}
+
+#time-passed,
+#time-remaining {
+    font-size: 10px;
+    font-weight: 900;
+}
+
+
+/* foot-right */
+
+.foot-right {
+    font-size: 14px;
+}
 
 
 /* COLOURS */
