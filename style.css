@@ -10,6 +10,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* LAYOUT */
 
@@ -78,9 +82,24 @@ main img {
 
 /* MAIN */
 
+#main-navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#main-navbar li {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: 900;
+}
+
 #recently-played {
     width: 100%;
     padding-left: 30px;
+    padding-top: 30px;
     font-weight: 900;
     font-size: 20px;
 }
