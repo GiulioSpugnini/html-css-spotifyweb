@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Giulio Spugnini">
     <meta name="Description" content="A Spotify interface">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' integrity='sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==' crossorigin='anonymous' />
     <link rel="stylesheet" href="style.css">
     <title>Spotify</title>
 </head>
@@ -21,11 +22,19 @@
             <main>
             </main>
             <!-- SIDEBAR -->
-            <nav>
+            <nav class="white" id="sidebar">
+                <span><img src="img/logo-small.svg" alt=""></span>
+                <span><img src="img/home.svg" alt=""></span>
+                <span><img src="img/search.svg" alt=""></span>
+                <span><img src="img/libreria.svg" alt=""></span>
+                <span id="circle-down"><i class="far fa-arrow-alt-circle-down"></i></span>
+                <span id="profile"><img src="img/profile.svg" alt=""></span>
+
             </nav>
         </div>
+
         <!-- FOOTER -->
-        <footer>
+        <footer id="player">
         </footer>
     </div>
 </body>
