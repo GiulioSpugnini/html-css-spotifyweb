@@ -224,8 +224,11 @@ figcaption {
     text-align: center;
 }
 
-.middle-buttons a {
+#middle-buttons {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .bar {
