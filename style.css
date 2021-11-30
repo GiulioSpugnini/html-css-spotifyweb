@@ -5,3 +5,44 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.user-view {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    height: 90%;
+    width: 100%;
+}
+
+header {
+    background-color: darkblue;
+    height: 10%;
+    width: 90%;
+}
+
+main {
+    background-color: darkcyan;
+    height: 90%;
+    width: 90%;
+}
+
+nav {
+    background-color: lightcoral;
+    justify-content: flex-start;
+    order: -1;
+    height: 100%;
+    width: 10%;
+}
+
+footer {
+    background-color: lightblue;
+    height: 10%;
+    width: 100%;
+}
