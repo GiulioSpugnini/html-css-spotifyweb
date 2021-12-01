@@ -53,7 +53,7 @@ main {
 }
 
 main img {
-    width: 200px;
+    width: 280px;
 }
 
 #sidebar {
@@ -145,11 +145,11 @@ main img {
 .card {
     margin-top: 10px;
     text-align: center;
-    height: 250px;
+    height: 400px;
 }
 
 figcaption {
-    font-size: 10px;
+    font-size: 14px;
     max-width: 200px;
     margin: 0 auto;
 }
