@@ -21,7 +21,6 @@ a {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -35,15 +34,15 @@ a {
 header {
     background-color: #080b12;
     height: 10%;
-    width: 90%;
+    width: calc(100% - 50px);
     position: relative;
 }
 
 main {
     background-color: #141922;
     height: 90%;
-    width: 90%;
-    overflow-y: scroll;
+    width: calc(100% - 50px);
+    overflow: auto;
 }
 
 main img {
@@ -55,7 +54,7 @@ main img {
     justify-content: flex-start;
     order: -1;
     height: 100%;
-    width: 10%;
+    width: 50px;
     text-align: center;
     position: relative;
 }
