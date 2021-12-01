@@ -82,9 +82,14 @@
     #home:hover,
     #search:hover,
     #library:hover {
-        border-left: 1px solid greenyellow;
-        padding-left: 19px;
+        border-left: 2px solid greenyellow;
+        padding-left: 18px;
         transform: translate(-20px);
+    }
+    #home p:hover,
+    #search p:hover,
+    #library p:hover {
+        color: greenyellow;
     }
     main img {
         width: 280px;
