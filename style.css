@@ -283,6 +283,10 @@ figcaption {
     color: gray;
 }
 
+.black {
+    color: black;
+}
+
 .bg-gray {
     background-color: gray;
 }
