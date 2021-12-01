@@ -86,4 +86,7 @@
         padding-left: 19px;
         transform: translate(-20px);
     }
+    main img {
+        width: 280px;
+    }
 }
