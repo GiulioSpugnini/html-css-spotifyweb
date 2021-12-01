@@ -242,6 +242,7 @@ figcaption {
 .foot-middle {
     flex-basis: 40%;
     text-align: center;
+    flex-grow: 1;
 }
 
 #middle-buttons {
@@ -255,8 +256,12 @@ figcaption {
     display: inline-block;
     border-radius: 8px;
     vertical-align: middle;
-    width: 100px;
+    min-width: 40%;
     height: 5px;
+}
+
+.time-content div {
+    min-width: 70%;
 }
 
 #time-passed,
@@ -270,6 +275,11 @@ figcaption {
 
 .foot-right {
     font-size: 14px;
+    padding-left: 20px;
+}
+
+.foot-right a {
+    padding-left: 10px;
 }
 
 
