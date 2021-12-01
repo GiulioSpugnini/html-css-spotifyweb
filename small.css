@@ -28,10 +28,15 @@
     #sidebar h3 {
         font-size: 0.8em;
     }
-    #add-songs {
+    #sidebar #add-songs {
         width: 30px;
         line-height: 30px;
         text-align: center;
+        display: inline-block;
+    }
+    #add-songs-text {
+        display: inline;
+        font-size: 16px;
     }
     .fa-arrow-alt-circle-down {
         font-size: 12px;
