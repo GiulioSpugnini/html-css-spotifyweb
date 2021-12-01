@@ -15,6 +15,13 @@ a {
 }
 
 
+/* DISPLAY RESPONSIVE */
+
+.sidebar-small {
+    display: none;
+}
+
+
 /* LAYOUT */
 
 .user-view {
