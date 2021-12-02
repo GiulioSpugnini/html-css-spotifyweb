@@ -240,6 +240,11 @@ figcaption {
     align-items: center;
 }
 
+#player a:hover {
+    transform: scale(1.1);
+    color: lime;
+}
+
 .foot-left,
 .foot-right {
     flex-basis: 30%;
@@ -299,10 +304,20 @@ figcaption {
     vertical-align: middle;
     min-width: 40%;
     height: 5px;
+    position: relative;
 }
 
 .time-content div {
     min-width: 70%;
+}
+
+.time-content .bar-progression {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 25%;
+    border-radius: 8px;
+    height: 5px;
 }
 
 #time-passed,
@@ -324,6 +339,19 @@ figcaption {
     padding-left: 10px;
 }
 
+.foot-right .bar {
+    position: relative;
+}
+
+.foot-right .bar-progression {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 25%;
+    border-radius: 8px;
+    height: 5px;
+}
+
 
 /* COLOURS */
 
@@ -341,6 +369,10 @@ figcaption {
 
 .bg-gray {
     background-color: gray;
+}
+
+.bg-lightgray {
+    background-color: lightgray;
 }
 
 .bg-night-blue {
