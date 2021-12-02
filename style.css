@@ -254,6 +254,10 @@ figcaption {
     font-size: 30px;
 }
 
+.fa-heart:hover {
+    color: red;
+}
+
 
 /* foot-left */
 
