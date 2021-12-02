@@ -60,7 +60,7 @@ header {
 main {
     background-color: #141922;
     height: 90%;
-    width: calc(100% - 50px);
+    width: calc(100% - 60px);
     overflow: auto;
 }
 

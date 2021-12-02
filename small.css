@@ -23,8 +23,57 @@
         list-style: none;
         overflow: auto;
         cursor: pointer;
-        height: 20vh;
-        width: 10vw;
+    }
+    @media screen and (max-height: 660px) {
+        #sidebar ul {
+            overflow: auto;
+            height: 20vh;
+            width: 180px;
+        }
+    }
+    @media screen and (max-height: 550px) {
+        #sidebar ul {
+            overflow: auto;
+            height: 10vh;
+            width: 180px;
+        }
+    }
+    @media screen and (max-height: 500px) {
+        #sidebar ul {
+            display: none;
+        }
+        #header-button {
+            display: none;
+        }
+    }
+    @media screen and (max-height: 450px) {
+        #sidebar h4,
+        #sidebar .fas,
+        #profile {
+            display: none;
+        }
+    }
+    @media screen and (max-height: 350px) {
+        #sidebar p,
+        #sidebar h3 {
+            display: none;
+        }
+    }
+    @media screen and (max-height: 300px) {
+        #sidebar img {
+            display: none;
+        }
+        #sidebar #logo {
+            display: block;
+        }
+    }
+    @media screen and (max-height: 150px) {
+        #sidebar #logo {
+            display: none;
+        }
+        #circle-down {
+            display: none;
+        }
     }
     #sidebar p,
     #sidebar li {
