@@ -21,7 +21,10 @@
     #sidebar ul {
         line-height: 30px;
         list-style: none;
+        overflow: auto;
         cursor: pointer;
+        height: 20vh;
+        width: 10vw;
     }
     #sidebar p,
     #sidebar li {
