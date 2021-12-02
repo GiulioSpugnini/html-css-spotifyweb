@@ -151,6 +151,7 @@ main {
 
 .row-content li {
     flex-basis: calc(100% / 2 - 20px);
+    padding-left: 10px;
 }
 
 .card {
