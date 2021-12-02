@@ -25,6 +25,10 @@ img {
     display: none;
 }
 
+.medium-content {
+    display: none;
+}
+
 
 /* LAYOUT */
 
@@ -119,10 +123,10 @@ main {
 }
 
 .row {
-    display: flex;
-    flex-flow: row wrap;
     width: 100%;
     /* margin-left: -20px; */
+    margin-top: 50px;
+    padding-bottom: 20px;
 }
 
 .row p {
@@ -137,17 +141,22 @@ main {
     border-radius: 50%;
 }
 
-.col-left,
-.col-right {
+.row-content {
+    display: flex;
+    flex-flow: row wrap;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 30px;
 }
 
+.row-content li {
+    flex-basis: calc(100% / 2 - 20px);
+}
+
 .card {
-    margin-top: 10px;
+    margin-top: 30px;
     text-align: center;
-    height: 400px;
+    list-style: none;
 }
 
 figcaption {
@@ -317,4 +326,12 @@ figcaption {
 
 .w50 {
     width: 50%;
+}
+
+.h33 {
+    height: calc(100% / 3);
+}
+
+.h50 {
+    height: 50%;
 }
