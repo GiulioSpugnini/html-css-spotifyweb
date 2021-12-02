@@ -1,4 +1,4 @@
-@media screen and ( min-width: 768px) {
+@media screen and ( min-width: 576px) {
     #sidebar {
         width: 200px;
         text-align: left;
@@ -90,8 +90,5 @@
     #search p:hover,
     #library p:hover {
         color: greenyellow;
-    }
-    main img {
-        width: 280px;
     }
 }
