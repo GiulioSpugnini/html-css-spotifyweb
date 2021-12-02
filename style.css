@@ -89,6 +89,10 @@ main {
     transform: translate(-90%, -50%);
 }
 
+#header-button:hover {
+    filter: invert(1);
+}
+
 
 /* MAIN */
 
@@ -157,6 +161,11 @@ main {
     margin-top: 30px;
     text-align: center;
     list-style: none;
+}
+
+.card:hover {
+    transition: 1s;
+    transform: scale(1.1);
 }
 
 figcaption {
