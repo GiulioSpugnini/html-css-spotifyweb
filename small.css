@@ -21,12 +21,16 @@
     #sidebar ul {
         line-height: 30px;
         list-style: none;
+        cursor: pointer;
     }
     #sidebar p,
     #sidebar li {
         font-size: 12px;
         font-weight: 900;
         color: gray;
+    }
+    #sidebar li:hover {
+        color: greenyellow;
     }
     #sidebar hr {
         width: 180px;
@@ -41,10 +45,15 @@
         line-height: 30px;
         text-align: center;
         display: inline-block;
+        cursor: pointer;
+    }
+    #add-songs-text:hover {
+        color: greenyellow;
     }
     #add-songs-text {
         display: inline;
         font-size: 16px;
+        cursor: pointer;
     }
     .fa-arrow-alt-circle-down {
         font-size: 12px;
@@ -57,6 +66,12 @@
         position: absolute;
         bottom: 10px;
         left: 20px;
+    }
+    #circle-down p:hover {
+        color: greenyellow;
+    }
+    .fa-arrow-alt-circle-down:hover {
+        color: greenyellow;
     }
     #profile {
         left: 30px;

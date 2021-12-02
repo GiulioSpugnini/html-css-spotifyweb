@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: white;
+}
+
 img {
     max-width: 100%;
 }
@@ -75,12 +79,10 @@ main {
 
 #header-button {
     border-radius: 20px;
-    height: 40px;
     width: 200px;
     border: 1px solid white;
     text-align: center;
     line-height: 38px;
-    text-decoration: none;
     font-size: 12px;
     font-weight: 900;
     position: absolute;
@@ -90,7 +92,7 @@ main {
 }
 
 #header-button:hover {
-    filter: invert(1);
+    transform: translate(-90%, -50%) scale(1.1);
 }
 
 
@@ -242,7 +244,7 @@ figcaption {
 
 #player a:hover {
     transform: scale(1.1);
-    color: lime;
+    color: greenyellow;
 }
 
 .foot-left,
@@ -312,14 +314,14 @@ figcaption {
 }
 
 .time-content div {
-    min-width: 70%;
+    width: 70%;
 }
 
 .time-content .bar-progression {
     position: absolute;
     top: 0;
     left: 0;
-    min-width: 25%;
+    width: 25%;
     border-radius: 8px;
     height: 5px;
 }
@@ -328,6 +330,21 @@ figcaption {
 #time-remaining {
     font-size: 10px;
     font-weight: 900;
+}
+
+.time-content:hover .bar-progression {
+    background-color: greenyellow;
+}
+
+.time-content:hover .bar-point {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
 }
 
 
@@ -354,6 +371,21 @@ figcaption {
     min-width: 25%;
     border-radius: 8px;
     height: 5px;
+}
+
+.foot-right:hover .bar-progression {
+    background-color: greenyellow;
+}
+
+.foot-right:hover .bar-point {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
 }
 
 
