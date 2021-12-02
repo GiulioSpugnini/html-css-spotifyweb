@@ -67,9 +67,6 @@
         bottom: 10px;
         width: 100px;
     }
-    #main-navbar {
-        max-width: 400px;
-    }
     header {
         width: calc(100% - 200px);
     }

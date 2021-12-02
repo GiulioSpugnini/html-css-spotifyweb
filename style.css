@@ -99,7 +99,6 @@ main {
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    max-width: 500px;
 }
 
 #main-navbar li {
@@ -107,6 +106,7 @@ main {
     margin-top: 20px;
     margin-bottom: 0px;
     font-weight: 900;
+    padding-left: 10px;
 }
 
 #main-navbar li:hover {
