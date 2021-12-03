@@ -226,11 +226,13 @@ figcaption {
     margin-top: 10px;
 }
 
-#player {
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     background-color: #282828;
-    height: 10%;
+    height: 90px;
     width: 100%;
-    z-index: 1;
 }
 
 
