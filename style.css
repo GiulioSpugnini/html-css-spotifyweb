@@ -120,7 +120,7 @@ main {
 
 .content-title {
     width: 100%;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-top: 30px;
     font-weight: 900;
     font-size: 20px;
@@ -128,7 +128,8 @@ main {
 
 .row {
     width: 100%;
-    /* margin-left: -20px; */
+    margin-left: -30px;
+    padding-left: 30px;
     margin-top: 50px;
     padding-bottom: 20px;
 }
